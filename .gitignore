@@ -7,6 +7,7 @@ yarn-error.log*
 
 # Editor directories and files
 .idea
+.webpack.base.conf.js
 *.suo
 *.ntvs*
 *.njsproj
