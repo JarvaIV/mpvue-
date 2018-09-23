@@ -1,14 +1,35 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main",
-    "pages/todolist/main"
+    "pages/books/main",
+    "pages/comments/main",
+    "pages/me/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "mpvue的示例",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarTitleText": "天天读书",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/books/main",
+        "text": "书库",
+        "iconPath": "static/img/book.png",
+        "selectedIconPath": "static/img/book-active.png"
+      },
+      {
+        "pagePath": "pages/comments/main",
+        "text": "评论",
+         "iconPath": "static/img/todo.png",
+         "selectedIconPath": "static/img/todo-active.png"
+      },
+      {
+        "pagePath": "pages/me/main",
+        "text": "个人中心",
+        "iconPath": "static/img/me.png",
+        "selectedIconPath": "static/img/me-active.png"
+      }
+    ]
   }
 }

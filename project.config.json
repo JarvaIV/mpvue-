@@ -1,16 +1,17 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": false,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"miniprogramRoot": "./dist/",
+	"qcloudRoot": "./server/",
 	"compileType": "miniprogram",
 	"appid": "wx7da101bfb3ef21e3",
-	"projectname": "my-project",
+	"projectname": "book-demo",
 	"condition": {
 		"search": {
 			"current": -1,
