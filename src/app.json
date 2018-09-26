@@ -2,13 +2,15 @@
   "pages": [
     "pages/books/main",
     "pages/comments/main",
-    "pages/me/main"
+    "pages/me/main",
+    "pages/bookdetail/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#EA5149",
     "navigationBarTitleText": "天天读书",
-    "navigationBarTextStyle": "light"
+    "navigationBarTextStyle": "light",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "list": [

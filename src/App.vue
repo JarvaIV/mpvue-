@@ -1,16 +1,37 @@
-<script>
-import wHttp from './util'
-// import {get} from './util'
 
+<script>
 export default {
-  async created () {
-    const res = await wHttp.Get('/webapp/demo')
-    // const res = await get('/webapp/demo')
-    console.log(13, res)
-    console.log('小程序启动了')
+  created () {
+    console.log('app vue')
   }
 }
 </script>
+<style>
+.text-primary{
+  color: #ea5a49;
+}
+.text-footer{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom:5px;
+}
+.btn {
+  color: white;
+  background: #ea5a49;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 40px;
+  width: 120px;
+  height: 40px;
+}
+.btn:active{
+  background: #fa5a49;
+}
+</style>
+
 
 
 
